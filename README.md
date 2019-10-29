@@ -9,7 +9,7 @@ now i am making some changes.
 3. then type 'git remote add origin https://github.com/kapilchhipa4/game-in-javascript.git' (it is the link of your repositery)
 4.  git remote -v  ( check origin)
 5. git add . ( it will add all the files of your folder)
-6. commit -m "some message"  ( commit the changes)
+6. git commit -m "some message"  ( commit the changes)
 7. git  push -f origin master   ( now u can push on origin )
 8 done;
 
