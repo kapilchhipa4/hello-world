@@ -13,3 +13,16 @@ now i am making some changes.
 7. git  push -f origin master   ( now u can push on origin )
 8 done;
 
+
+
+
+make new branch and upload updated project------------
+
+1.  type in gitbash 'git init' ( inside your project folder which u want to upload)
+2. then type 'git remote add origin https://github.com/kapilchhipa4/game-in-javascript.git' (it is the link of your repositery)
+3. git remote -v  ( check origin)
+4. git checkout -b new-branch-name
+5. git add . ( it will add all the files of your folder)
+6. git commit -m "some message"  ( commit the changes)
+7. git  push -f origin 'your branch name'   ( now u can push on origin )
+
