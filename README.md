@@ -28,6 +28,16 @@ make new branch and upload updated project------------
 
 
 
+E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+
+fix that error
+
+1. ps aux | grep -i apt
+2. kill process with 'kill process_id' command 
+ 2.1 sudo kill -9 <process_id>  ( to kill forcefully)
+ 2.2 sudo killall apt apt-get ( to kill all process)
+
 
 
 
