@@ -27,6 +27,10 @@ make new branch and upload updated project------------
 7. git  push -f origin 'your branch name'   ( now u can push on origin )
 
 
+how to select a particular branch
+
+1. git checkout branch_name
+
 -------------------------------------------------------------------------------------------
 E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
 E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
